@@ -45,6 +45,9 @@ position:fixed;
 color:#fbfcfe;
 }
 
+.small-spacer {
+  height: 5px; }
+
 .height-spacer {
   height: 30px; }
 
