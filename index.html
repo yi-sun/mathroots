@@ -40,8 +40,14 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">About</a></li>
-            <li class="active"><a href="apply.html">Apply</a></li>
+            <li class="dropbdown">
+	      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+	      <ul class="dropdown-menu">
+		<li><a href="academics.html">Academics</a></li>
+		<li><a href="residential.html">Residential</a></li>
+		<li><a href="people.html">People</a></li>
+	    </ul></li>
+	    <li class="active"><a href="apply.html">Apply</a></li>
             <li class="active"><a href="resources.html">Resources</a></li>
             <li class="active"><a href="sponsors.html">Sponsors</a></li>
             <li class="active"><a href="contact.html">Contact</a></li>
@@ -63,184 +69,48 @@
 
     <div class="container">
       <div class="row">
-	<nav class="bs-docs-sidebar col-md-2">
-          <ul id="sidebar" class="nav nav-stacked" data-spy="affix">
-            <li><a href="#about">About</a></li>
-            <li><a href="#mission">Mission</a></li>
-            <li><a href="#academics">Academics</a></li>
-            <li><a href="#residential">Residential</a></li>
-            <li><a href="#people">People</a>
-	      <ul class="nav nav-stacked">
-		<li><a href="#pavel">Pavel Etingof</a></li>
-		<li><a href="#slava">Slava Gerovitch</a></li>
-		<li><a href="#yi">Yi Sun</a></li>
-		<li><a href="#tanya">Tanya Khovanova</a></li>
-		<li><a href="#quinton">Quinton McArthur</a></li>
-	      </ul>
-	    </li>
-          </ul>
-	</nav>
+	<div class="col-md-6">
+	    <p><b>√mathroots</b> is a 14-day summer program at <a href="http://mit.edu">MIT</a> hosted by <a href="http://math.mit.edu/research/highschool/primes/index.php">MIT PRIMES</a> for promising high school students from underrepresented backgrounds or underserved communities who are interested in exploring creative topics in mathematics.</p>
+
+<p>√mathroots 2016 will take place at MIT from <b>June 19 to July 3, 2016</b>. The application will be available <a href="apply.html">here</a> in early March 2016.</p>
+	</div>
 	
-	<div class="col-md-10">
-	  <section id="about">
-	    <h3>About √mathroots</h3>
-
-	    <p><b>√mathroots</b> is a 14-day summer program at <a href="http://mit.edu">MIT</a> hosted by <a href="http://math.mit.edu/research/highschool/primes/index.php">PRIMES</a> for promising high school students from underrepresented backgrounds or underserved communities who are interested in exploring creative topics in mathematics. The 2016 √mathroots program will be hosted at MIT from <b>June 19 to July 3, 2016</b>.</p>
-
-	    <div class="col-md-6">
-	      <img src="./media/contest1.JPG" class="img-responsive" height="230">
-	    </div>
-
-	    <div class="col-md-6">
-	      <img src="./media/contest2.JPG" class="img-responsive" height="230">
-	    </div>
-
-	    <p>The inaugural √mathroots program invited 20 students from across the United States to spend two weeks at MIT.</p>
-
-	    <p>Media coverage:
-
-	      <ul><li>A feature article on the <a href="http://spotlight.mit.edu/2015/summer-of-stem">MIT Homepage</a></li>
-		<li>An article in <a href="http://newsoffice.mit.edu/2015/high-school-students-mathroots-0708">MIT News</a></li>
-<li>Article in <a href="http://www.ams.org/notices/201508/rnoti-p910.pdf">Notices of the AMS</a></li>
-</ul>
-	  </section>
-	  <div class="small-spacer"></div>
-	  <section id="mission">
-	    <h3>Mission</h3>
-	    <p>The goal of √mathroots is to increase diversity in the mathematical community by helping strong students from underrepresented backgrounds develop their interest in mathematics and to set them on a path toward pursuing a math-based major in college.</p>
-	   
-	      <p>Founded in 2015, √mathroots was inspired by the <a href="http://www.aaas.org/news/aaas-trained-%E2%80%9Cmathletes%E2%80%9D-score-high-tunis-olympiad">PAMO 2012 pilot project</a>, documented in <a href="https://www.youtube.com/watch?v=zEuLUO4Si7g">this video</a> by the American Association for the Advancement of Science. It is hosted at MIT by the <a href="http://mit.edu/primes">PRIMES</a> program, and <a href="http://mathroots.mit.edu/program/people/">led</a> by MIT faculty, staff, and students with a special interest and background in creative and competitive mathematics.</p>
-
-	  <section id="academics">
-	    <h3>Academics: Learn by doing</h3>
-	      <p>At √mathroots, students will discover new mathematical ideas and learn problem solving skills through a series of classes, group activities, and invited lectures led by a team of instructors with diverse experiences teaching both research and competition math.</p>
-
-	      <div class="col-md-6">
-	      <img src="./media/discuss2.jpg" class="img-responsive" height="230">
-	    </div>
-
-	    <div class="col-md-6">
-	      <img src="./media/class4.jpg" class="img-responsive" height="230">
-	    </div>
-
-	      <p>The program features:</p>
-	      <ul>
-		<li>Creative problem solving outside the standard curriculum</li>
-		<li>Exposure to beautiful yet accessible ideas in mathematics</li>
-		<li>Introduction to techniques and meaning of mathematical proof</li>
-		<li>An academic and cultural community of like-minded peers, mentors, and instructors</li>
-	      </ul>
-
-	    <div class="well">
-	      <p><em>Let’s play a game, you and I:</em></p>
-	      <p><em>We take turns writing a number from 1, 2, 3, 4, 5, 6, 7, 8 on the board.</em></p>
-	      <p><em>Once 1000 numbers have been written on the board, the game ends. You</em>
-		<em>win if the sum of the numbers on the board is divisible by 9,</em>
-		<em>otherwise I win.</em></p>
-	      <p><em>You can choose whether to go first or second. How can you win the</em>
-		<em>game? What if we can only write numbers from 1, 2, 3, 4, 5, 6?</em></p>
-	      <p><em>If learning how to win this game appeals to you, √mathroots may be for you!</em></p>
-	    </div>
-	  </section>
-	  <div class="small-spacer"></div>
-	  <section id="residential">
-	    <h3>Residential: Join a community of excellence</h3>
-	    <p class="p1">√mathroots is a residential program hosted on the MIT campus. Students will live in a dormitory under the supervision of Residential Counselors, MIT undergraduate and graduate students, who will oversee their health and well-being. Room, board and meals are included for all students admitted to the program.</p>
-
-	    <div class="col-md-6">
-	      <img src="./media/fun1.jpg" class="img-responsive" height="230">
-	    </div>
-
-	    <div class="col-md-6">
-	      <img src="./media/class2.jpg" class="img-responsive" height="230">
-	    </div>
-
-	    <p>When students are not studying fun math, they will explore the MIT campus, visit other Boston area college and universities, attend interesting lectures about STEM careers, play soccer, or relax along with friends along the Charles River.</p>
-
-	    <div class="well">
-	      <p>A typical day at √mathroots:</p>
-	      <ul>
-		<li>7:30am-8:45am: Breakfast</li>
-		<li>9:00am-10:20am: SET game</li>
-		<li>10:30am-12:30pm: Writing &amp; Quiz Review</li>
-		<li>12:30pm-2:30pm: Lunch &amp; Free Time</li>
-		<li>2:30pm-3:50pm: Counting</li>
-		<li>4:00pm-5:30pm: Problem Session</li>
-		<li>5:45pm-7:00pm: Dinner</li>
-		<li>7:00pm-9:00pm: Design Workshop (optional)</li>
-		<li>7:00pm-10:00pm: Recreational math/homework/group projects</li>
-		<li>10:00pm-11:00pm: Check In with RCs</li>
-		<li>11:00pm: Lights Out</li>
-	      </ul>
-	    </div>
-	  </section>
-	  <div class="small-spacer"></div>
-	  <section id="people">
-	    <h3>People</h3>
-	    <div class="member_info" id="pavel">
-	      <h4>Pavel Etingof</h4>
-	      <div class="col-md-3">
-	      <h5>Faculty Advisor</h5>
-		<img src="media/pavel.jpg">
-	      </div>
-	      <div class="col-md-9">
-	      <p>Pavel Etingof is Professor of Mathematics in the Mathematics Department at MIT. Pavel received his Ph.D. in mathematics from Yale University. Pavel&#8217;s research interests are noncommutative algebra, representation theory, and mathematical physics. Pavel led mathematics research programs for high school students at the Clay Mathematics Research Academy, the <a href="http://math.mit.edu/research/highschool/rsi/index.php">Research Science Institute (RSI)</a>, and <a href="http://math.mit.edu/research/undergraduate/spur/index.php">SPUR</a> at MIT. He co-founded MIT <a href="http://math.mit.edu/research/highschool/primes/index.php">PRIMES</a> program and has served as its Chief Research Advisor since 2010. Pavel’s students have won multiple top awards at national science competitions for high school students.</p>
-<p>When Pavel isn&#8217;t doing math, he enjoys mycology and can be found identifying, collecting, and cooking mushrooms for fun(gi).</p>
-	    </div>
-</div>
-
-	    <div class="member_info" id="slava">
-	      <h4>Slava Gerovitch</h4>
-	      <div class="col-md-3">
-	      <h5>Academic Director</h5>
-		<img src="media/slava.jpg">
-	      </div>
-	      <div class="col-md-9">
-	      <p>Slava Gerovitch is the Director of Research and Reading Programs in the Mathematics Department at MIT. He co-founded MIT <a href="http://math.mit.edu/research/highschool/primes/index.php">PRIMES</a> program in 2010 and directed <a href="http://math.mit.edu/research/highschool/rsi/index.php">RSI</a> and <a href="http://math.mit.edu/research/undergraduate/spur/index.php">SPUR</a> programs since 2012, and <a href="http://math.mit.edu/research/undergraduate/drp/index.php">DRP</a> and <a href="http://math.mit.edu/academics/grad/financial/summer/mentorships">UROP+</a> programs since 2014. His research interests include social and cultural history of mathematics, cybernetics, astronautics, and computing. His current research project is on the culture of abstract algebra in the second half of the twentieth century. Slava holds two doctoral degrees, in history and social study of science and technology from MIT and in philosophy of science from the Russian Academy of Sciences.</p>
-	      <p>He has taught at MIT since 1999, but when nobody is watching, writes poetry!</p>
-</div>
-	    </div>
-
-	    <div class="member_info" id="yi">
-	      <h4>Yi Sun</h4>	
-	      <div class="col-md-3">
-	      <h5>Academic Coordinator</h5>
-		<img src="media/yi.jpg">
-	      </div>
-	      <div class="col-md-9">
-<p>Yi Sun is a fifth year Ph.D. student in mathematics at MIT. Yi earned his B.A. in mathematics and economics at Harvard and M.A. in mathematics from the University of Cambridge as a Churchill Scholar. His research interests are in representation theory and integrable systems, and their applications to probability and random matrices. Yi represented the United States at the International Mathematics Olympiad and has taught at olympiad camps for the US, UK, and Saudi Arabian teams.</p>
-<p class="p1">In his free time, he enjoys lifting weights with the MIT powerlifting club.</p>
-</div>
-	    </div>
-
-	    <div class="member_info" id="tanya">
-	      <h4>Tanya Khovanova</h4>
-	      <div class="col-md-3">
-		<h5>Head Mentor</h5>
-		<img src="media/tanya.jpg">
-	      </div>
-	      <div class="col-md-9">
-	     <p class="p1">Tanya Khovanova is a Lecturer at MIT and a freelance mathematician. She received her Ph.D. in Mathematics from the Moscow State University. Her current interests lie in recreational mathematics including puzzles, magic tricks, combinatorics, number theory, geometry, and probability theory. Her website is located at <a href="http://tanyakhovanova.com/"><span class="s1">tanyakhovanova.com</span></a>, her highly popular math blog at <a href="http://blog.tanyakhovanova.com/"><span class="s1">blog.tanyakhovanova.com</span></a> and her Number Gossip website at <a href="http://numbergossip.com/"><span class="s1">numbergossip.com</span></a>.</p>
-<p class="p1">Tanya works with gifted children in a variety of settings. At the AMSA Charter School in Massachusetts, she coaches the math competition team. She also mentors and supervises high school students who want to do research in mathematics. She works with the two most successful programs that focus on helping kids do research: <a href="http://math.mit.edu/research/highschool/rsi/index.php">RSI</a> and MIT <a href="http://math.mit.edu/research/highschool/primes/index.php">PRIMES</a>.</p>
-<p class="p3">When Tanya is not thinking about mathematics or puzzles, she enjoys dancing. Actually, sometimes she thinks about math while dancing – and about dancing while solving problems.</p>
-</div>
-	    </div>
-
-	    <div class="member_info" id="quinton">
-	      <h4>Quinton McArthur</h4>
-	      <div class="col-md-3">
-	      <h5>Program Director</h5>
-		<img src="media/quinton.jpeg">
-	      </div>
-	      <div class="col-md-9">
-	      <p>Quinton McArthur is the Director of Diversity &amp; Targeted Outreach and Associate Director of Admissions at MIT. He is an expert in the pathways of high-achieving Black &amp; Latino high school students, particularly in the STEM fields.  Prior to his time at MIT, Quinton was a graduate student at the University of Maryland at College Park where he served as a member of <a href="http://www.education.umd.edu/Academics/Faculty/Bios/index.cfm?URLID=sfries">Dr. Sharon Fries-Britt’s</a> research team collecting data on high achievers in the National Society of Black Physicists (NSBP). Quinton holds a Masters degree in Education Policy &amp; Higher Education from the University of Maryland, College Park, and a bachelor’s degree from Morehouse College.</p>
-	      <p>When Quinton is not reading thousands of applications, you can find him on a tropical island trying to catch waves and improve his surfing skills.</p>
-	      </div>
-	    </div>
-	  </section>
+	<div class="col-md-6">
+	  <img src="./media/contest1.JPG" class="img-responsive" height="230">
 	</div>
       </div>
-    </div>
+      <div class="height-spacer"></div>
+      <div class="row">
+	<div class="col-md-6">
+	  <p>The inaugural √mathroots program invited 20 students from across the United States to spend two weeks at MIT.</p>
+	  <p>Media coverage:
+	    <ul>
+	      <li>A feature article on the <a href="http://spotlight.mit.edu/2015/summer-of-stem">MIT Homepage</a></li>
+	      <li>An article in <a href="http://newsoffice.mit.edu/2015/high-school-students-mathroots-0708">MIT News</a></li>
+	      <li>An article in <a href="http://www.ams.org/notices/201508/rnoti-p910.pdf">Notices of the AMS</a></li>
+	    </ul>
+	</div>
+	<div class="col-md-6">
+	  <img src="./media/contest2.JPG" class="img-responsive" height="230">
+	</div>
+      </div>
+      <div class="height-spacer"></div>
+      <div class="row">
+	<div class="col-md-12">
+	  <p><b>Mission:</b> The goal of √mathroots is to increase diversity in the mathematical community by helping strong students from underrepresented backgrounds develop their interest in mathematics and to set them on a path toward pursuing a math-based major in college.</p>
+	</div>
+      </div>
+      <div class="height-spacer"></div>
+      <div class="row">
+	<div class="col-md-6">	  
+	  <p>Founded in 2015, √mathroots was inspired by the <a href="http://www.aaas.org/news/aaas-trained-%E2%80%9Cmathletes%E2%80%9D-score-high-tunis-olympiad">PAMO 2012 pilot project</a>, documented in <a href="https://www.youtube.com/watch?v=zEuLUO4Si7g">this video</a> by the American Association for the Advancement of Science. It is hosted at MIT by the <a href="http://mit.edu/primes">PRIMES</a> program, and <a href="http://mathroots.mit.edu/program/people/">led</a> by MIT faculty, staff, and students with a special interest and background in creative and competitive mathematics.</p>
+	</div>
+	<div class="col-md-6">
+	  <div class="embed-responsive embed-responsive-16by9">
+	    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zEuLUO4Si7g" allowfullscreen=""></iframe>
+	  </div>
+	</div>
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
