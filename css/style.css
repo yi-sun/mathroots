@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+html, body {
+  font-family: "Droid Sans", sans-serif;
+}
+
 .jumbotron {
 background-image: url("../media/alchemist_mit_70.png");
 background-size: cover;}
