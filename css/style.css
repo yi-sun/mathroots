@@ -56,9 +56,33 @@ color:#fbfcfe;
   height: 30px; }
 
 .navbar {
+    background-image: none;
     background-color:rgba(0, 0, 0, 0);
     border: 0;
     margin-bottom: 0;
+}
+
+.navbar .nav > li.dropdown.open.active > a:hover, 
+.navbar .nav > li.dropdown.open > a {
+   background-color:rgba(0, 0, 0, 0);
+}
+
+.navbar .navbar-brand {
+    color: #fbfcfe;
+}
+
+.navbar .navbar-brand:hover {
+    color: #808080;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    color: #fbfcfe;
+}
+
+.navbar .nav > li > a:hover {
+    float: none;
+    color: #808080;
 }
 
 /* sidebar */
