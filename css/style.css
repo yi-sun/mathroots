@@ -9,7 +9,7 @@ html, body {
 }
 
 .jumbotron {
-background-image: url("../media/alchemist_mit_70.png");
+background-image: url("../media/board-grey-dark.jpg"); /*alchemist_mit_70.png");*/
 background-size: cover;}
 
 /* Customize container */
@@ -72,7 +72,7 @@ color:#fbfcfe;
 }
 
 .navbar .navbar-brand:hover {
-    color: #808080;
+    color: #d3d3d3;
 }
 
 .navbar .nav > li > a {
@@ -82,7 +82,7 @@ color:#fbfcfe;
 
 .navbar .nav > li > a:hover {
     float: none;
-    color: #808080;
+    color: #d3d3d3;
 }
 
 /* sidebar */
